@@ -721,7 +721,7 @@ ${L}`}class ss extends Error{constructor({message:e,code:r,cause:i,name:f}){var 
                 ${t.status_os==="open"?`
                 <div style="width: 120px; height: 210px; border: 4px solid #52525b; border-radius: 18px; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 12px 0; background: #fff;">
                   <div style="width: 85%; height: 32px; border: 2px solid #52525b; border-radius: 6px; font-size: 0.65rem; text-align:center; font-weight: 900; display: flex; align-items: center; justify-content: center; background: #f4f4f5;">SENHA</div>
-                  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; width: 85%;">
+                  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; row-gap: 38px; width: 90%;">
                     <div style="width: 18px; height: 18px; background: #52525b; border-radius: 50%;"></div>
                     <div style="width: 18px; height: 18px; background: #52525b; border-radius: 50%;"></div>
                     <div style="width: 18px; height: 18px; background: #52525b; border-radius: 50%;"></div>
