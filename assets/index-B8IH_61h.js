@@ -827,7 +827,7 @@ ${L}`}class ss extends Error{constructor({message:e,code:r,cause:i,name:f}){var 
                <p style="margin-top: 4px;">Usuário: ${t.createdBy||"Sistema"}</p>
              </div>
              <!-- Espaço para evitar corte em impressoras térmicas -->
-             ${e.extraFooterMargin&&e.extraFooterMargin>0?`<div style="height: ${e.extraFooterMargin}cm; width: 100%; clear: both; position: relative;"><div style="position: absolute; bottom: 0; color: transparent;">.</div></div>`:""}
+             ${e.extraFooterMargin&&e.extraFooterMargin>0?`<div style="height: ${e.extraFooterMargin}cm; width: 100%; clear: both; position: relative;"><div style="position: absolute; bottom: 0;">.</div></div>`:""}
            </div>
  
            <script>
@@ -926,7 +926,7 @@ ${L}`}class ss extends Error{constructor({message:e,code:r,cause:i,name:f}){var 
           </div>
         `:""}
         <!-- Espaço para evitar corte em impressoras térmicas -->
-        ${i.extraFooterMargin&&i.extraFooterMargin>0?`<div style="height: ${i.extraFooterMargin}cm; width: 100%; clear: both; position: relative;"><div style="position: absolute; bottom: 0; color: transparent;">.</div></div>`:""}
+        ${i.extraFooterMargin&&i.extraFooterMargin>0?`<div style="height: ${i.extraFooterMargin}cm; width: 100%; clear: both; position: relative;"><div style="position: absolute; bottom: 0;">.</div></div>`:""}
         </div>
         <script>
           window.onload = function() {
