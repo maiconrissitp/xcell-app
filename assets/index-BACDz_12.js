@@ -583,9 +583,9 @@ ${z}`}class gs extends Error{constructor({message:e,code:r,cause:i,name:d}){var 
             }
 
             .no-print { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 20px 0; background: #fafafa; border-bottom: 1px solid #e4e4e7; }
-            button { padding: 10px 20px; font-weight: bold; border-radius: 8px; cursor: pointer; border: none; font-size: 14px; }
-            @media (max-width: 767px) {
-              button { padding: 20px 40px; font-size: 20px; border-radius: 16px; }
+            button { padding: 20px 40px; font-weight: bold; border-radius: 16px; cursor: pointer; border: none; font-size: 20px; }
+            @media (min-width: 768px) {
+              button { padding: 10px 20px; font-size: 14px; border-radius: 8px; }
             }
             .btn-print { background: #ea580c; color: white; }
             .btn-close { background: #f4f4f5; color: #18181b; }
@@ -888,9 +888,9 @@ ${z}`}class gs extends Error{constructor({message:e,code:r,cause:i,name:d}){var 
             min-height: ${f?"auto":i.paperHeight&&i.paperHeight>0?`${i.paperHeight}cm`:"auto"};
           }
           .no-print { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 20px 0; background: #fafafa; border-bottom: 1px solid #e4e4e7; }
-          button { padding: 10px 20px; font-weight: bold; border-radius: 8px; cursor: pointer; border: none; font-size: 14px; }
-          @media (max-width: 767px) {
-            button { padding: 20px 40px; font-size: 20px; border-radius: 16px; }
+          button { padding: 20px 40px; font-weight: bold; border-radius: 16px; cursor: pointer; border: none; font-size: 20px; }
+          @media (min-width: 768px) {
+            button { padding: 10px 20px; font-size: 14px; border-radius: 8px; }
           }
           .btn-print { background: #ea580c; color: white; }
           .btn-close { background: #f4f4f5; color: #18181b; }
